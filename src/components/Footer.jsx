@@ -44,7 +44,7 @@ const Footer = () => {
       ref={footerRef}
     >
       <div
-        className="mt-[-50%] md:mt-[-40%] lg:mt-[-30%] xl:mt-[-10%] lg:z-10 flex flex-col gap-4 md:flex-row"
+        className="mt-[-30%] md:mt-[-20%] lg:mt-[-5%] xl:mt-[-10%] lg:z-10 flex flex-col gap-4 md:flex-row"
         style={{ clipPath: "polygon(100% 100%, 0 100%, 0 0, 100% 0)" }}
       >
         <div className="md:w-1/3 footerPicture">
@@ -55,14 +55,14 @@ const Footer = () => {
         </div>
         <div className=" md:w-1/3 md:mt-[25%] xl:mt-[15%] footerPicture">
           <div className="relative">
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-main_color z-30 w-5/6 h-5/6 md:h-80 xl:h-96"></div>
-            <img src={pizzaeight} className="h-96 xl:h-[450px] object-cover w-full" />
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-main_color z-30 w-5/6 h-5/6 md:h-80 xl:h-[550px]"></div>
+            <img src={pizzaeight} className="h-96 xl:h-[650px] object-cover w-full" />
           </div>
         </div>
         <div className=" md:w-1/3 md:mt-[10%] xl:mt-[8%] footerPicture">
           <div className="relative">
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-main_color z-30 w-5/6 h-5/6 md:h-80 xl:h-96"></div>
-            <img src={pizzasix} className="h-96 xl:h-[450px] object-cover w-full" />
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-main_color z-30 w-5/6 h-5/6 md:h-80 xl:h-[400px]"></div>
+            <img src={pizzasix} className="h-96 xl:h-[500px] object-cover w-full" />
           </div>
         </div>
       </div>
