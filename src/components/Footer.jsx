@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import pizzatwelve from "../assets/pictures/pizzatwelve.jpg";
-import pizzaeight from "../assets/pictures/pizzaeight.jpg";
-import pizzasix from "../assets/pictures/pizzasix.jpg";
+import pizzatwelve from "../assets/pictures/pizzatwelve.webp";
+import pizzaeight from "../assets/pictures/pizzaeight.webp";
+import pizzasix from "../assets/pictures/pizzasix.webp";
 import logo from "../assets/logo/pizza_logo_no_bg_resized.png";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";

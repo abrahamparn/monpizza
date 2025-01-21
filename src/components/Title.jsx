@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import pizzafive from "../assets/pictures/pizzafive.jpg";
+import pizzafive from "../assets/pictures/pizzafive.webp";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";

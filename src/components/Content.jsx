@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import pizzaeleven from "../assets/pictures/pizzaeleven.jpg";
-import pizzatwo from "../assets/pictures/pizzatwo.jpg";
-import pizzathree from "../assets/pictures/pizzathree.jpg";
+import pizzaeleven from "../assets/pictures/pizzaeleven.webp";
+import pizzatwo from "../assets/pictures/pizzatwo.webp";
+import pizzathree from "../assets/pictures/pizzathree.webp";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";

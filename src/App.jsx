@@ -8,7 +8,7 @@ import { IconContext } from "react-icons";
 import "./App.css";
 // IMPORT IMAGE
 import pizzaLogo from "./assets/logo/pizza_logo_no_bg_resized.png";
-import pizzaseven from "./assets/pictures/pizzaseven.jpg";
+import pizzaseven from "./assets/pictures/pizzaseven.webp";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
