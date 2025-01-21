@@ -78,7 +78,7 @@ const Title = () => {
             className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl xxl:text-9xl font-bold  text-center md:text-center leading-tight"
             style={{ clipPath: "polygon(100% 100%, 0 100%, 0 0, 100% 0)" }}
           >
-            <span className="md:ms-[20%] inline-block ">DISCOVER</span>
+            <span className="md:ms-[10%] inline-block ">DISCOVER</span>
             <br />
             <span className="md:ms-[-30%] inline-block ">THE ART</span>
             <br />
