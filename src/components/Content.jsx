@@ -32,6 +32,16 @@ const Content = () => {
             },
           }
         );
+        gsap.to(card.querySelector(".contentTitle"), {
+          x: 100,
+          scrollTrigger: {
+            trigger: card,
+            start: "top 80%",
+            toggleActions: "Play none none reverse",
+            scrub: true,
+            markers: true,
+          },
+        });
       });
     },
     { scope: contentRef }
@@ -46,7 +56,7 @@ const Content = () => {
               <img src={pizzaeleven} className="w-72 h-72 xl:w-96 xl:h-96 z-40 object-cover" />
             </div>
             <div className="flex flex-col gap-4 xl:gap-8">
-              <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic">Inspiration</h2>
+              <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic contentTitle">Inspiration</h2>
               <p className="font-poppins text-sm lg:text-lg xl:text-xl xxl:text-3xl leading-loose">
                 &emsp;&emsp;At The Sapphire Slice, we believe that every pizza tells a story. Our
                 creations are inspired by the timeless connection between food and people.
@@ -61,7 +71,7 @@ const Content = () => {
               <img src={pizzatwo} className="w-72 h-72 xl:w-96 xl:h-96 z-40 object-cover" />
             </div>
             <div className="flex flex-col gap-4 xl:gap-8">
-              <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic">Education</h2>
+              <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic contentTitle">Education</h2>
               <p className="font-poppins text-sm lg:text-lg xl:text-xl xxl:text-3xl leading-loose">
                 &emsp;&emsp;Learn the craft behind the perfect slice. We share the secrets of
                 artisan pizza-making, encouraging you to step into a world of culinary discovery.
@@ -76,7 +86,7 @@ const Content = () => {
               <img src={pizzathree} className="w-72 h-72 xl:w-96 xl:h-96 z-40 object-cover" />
             </div>
             <div className="flex flex-col gap-4 xl:gap-8">
-              <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic">Innovation</h2>
+              <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic contentTitle">Innovation</h2>
               <p className="font-poppins text-sm lg:text-lg xl:text-xl xxl:text-3xl leading-loose">
                 &emsp;&emsp;Innovation lies at the heart of everything we do. By combining
                 time-honored traditions with modern techniques, we create pizzas that honor the past

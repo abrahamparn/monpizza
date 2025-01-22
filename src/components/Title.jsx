@@ -36,7 +36,7 @@ const Title = () => {
           duration: 1,
           stagger: 0.1,
         },
-        "<+0.5"
+        "<+1"
       );
       timeline.fromTo(
         sectionTitleRef.current.querySelectorAll(".titleJargon"),
@@ -47,9 +47,8 @@ const Title = () => {
           duration: 1,
           stagger: 0.1,
         },
-        "<"
+        "<-0.5"
       );
-      console.log(sectionTitleRef.current.querySelectorAll("span"));
     },
     { scope: sectionTitleRef }
   );

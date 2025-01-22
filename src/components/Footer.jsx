@@ -16,7 +16,6 @@ const Footer = () => {
       let footerPicture = gsap.utils.toArray(".footerPicture");
 
       footerPicture.forEach((item, index) => {
-        console.log(item);
         gsap.fromTo(
           item,
           { y: 200, opacity: 0 },
