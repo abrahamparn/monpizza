@@ -39,7 +39,7 @@ const Content = () => {
             start: "top 80%",
             toggleActions: "Play none none reverse",
             scrub: true,
-            markers: true,
+            //  markers: true,
           },
         });
       });
@@ -55,7 +55,7 @@ const Content = () => {
               <div className=" absolute w-60 md:w-40 lg:w-52 xl:w-72 h-60 xl:h-72 border-4 origin-center border-main_color z-[41]"></div>
               <img src={pizzaeleven} className="w-72 h-72 xl:w-96 xl:h-96 z-40 object-cover" />
             </div>
-            <div className="flex flex-col gap-4 xl:gap-8">
+            <div className="flex flex-col gap-4 xl:gap-8 overflow-x-hidden">
               <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic contentTitle">Inspiration</h2>
               <p className="font-poppins text-sm lg:text-lg xl:text-xl xxl:text-3xl leading-loose">
                 &emsp;&emsp;At The Sapphire Slice, we believe that every pizza tells a story. Our
@@ -70,7 +70,7 @@ const Content = () => {
               <div className=" absolute w-60 md:w-40 lg:w-52 xl:w-72 h-60 xl:h-72 border-4 origin-center border-main_color z-[41]"></div>
               <img src={pizzatwo} className="w-72 h-72 xl:w-96 xl:h-96 z-40 object-cover" />
             </div>
-            <div className="flex flex-col gap-4 xl:gap-8">
+            <div className="flex flex-col gap-4 xl:gap-8 overflow-x-hidden">
               <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic contentTitle">Education</h2>
               <p className="font-poppins text-sm lg:text-lg xl:text-xl xxl:text-3xl leading-loose">
                 &emsp;&emsp;Learn the craft behind the perfect slice. We share the secrets of
@@ -85,7 +85,7 @@ const Content = () => {
               <div className=" absolute w-60 md:w-40 lg:w-52 xl:w-72 h-60 xl:h-72 border-4 origin-center border-main_color z-[41]"></div>
               <img src={pizzathree} className="w-72 h-72 xl:w-96 xl:h-96 z-40 object-cover" />
             </div>
-            <div className="flex flex-col gap-4 xl:gap-8">
+            <div className="flex flex-col gap-4 xl:gap-8 overflow-x-hidden">
               <h2 className="text-4xl xl:text-6xl xxl:text-8xl italic contentTitle">Innovation</h2>
               <p className="font-poppins text-sm lg:text-lg xl:text-xl xxl:text-3xl leading-loose">
                 &emsp;&emsp;Innovation lies at the heart of everything we do. By combining
